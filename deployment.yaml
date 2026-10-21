@@ -5,7 +5,7 @@ metadata:
   name: jenkins-k8s-demo
 
 spec:
-  replicas: 1
+  replicas: 2
 
   selector:
     matchLabels:
