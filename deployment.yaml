@@ -19,8 +19,8 @@ spec:
     spec:
       containers:
         - name: web
-          image: jenkins-k8s-demo:1.0
-          imagePullPolicy: Never
+          image: sureshkrishnak/jenkins-k8s-demo:1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
 
